@@ -1,0 +1,718 @@
+input:focus,button:focus,select:focus{
+  box-shadow: none !important;
+  border:1px solid orange !important;
+}
+.bgLight{
+  background: #f0f2f2 !important;
+}
+.cartTabpane .nav-link.active{
+  border-bottom: 2px solid orange !important;
+  background: transparent !important;
+  color:#000 !important;
+}
+.amznBtn{
+  /* background-image: linear-gradient(direction, color-stop1, color-stop2, ...); */
+  background-image:-webkit-linear-gradient(top,#faebc8 0%,#faebc8 5% ,#f7dea1 5%,#f0c14c) !important;
+}
+
+/******************* Layout Start ********************/
+.bgColor{
+  background:#eaeded !important;
+}
+/******************* Layout End ********************/
+
+
+
+.r_aside_pannel{
+  width:8%;
+  height: 100%;
+  position: fixed;
+  top:0px;
+  right: 0px;
+  background-color: red;
+}
+/**************************** Home Css Start   *****************************/
+.AllNavMenuCloseBtn{
+  z-index: 100000;
+  left: 370px !important;
+}
+.AllNavMenuBody{
+  height: 720px !important;
+  padding-bottom:110px !important;
+}
+.AllNavMenu{
+  width:365px;
+  z-index: 100000;
+  /* transition: property duration timing-function delay|initial|inherit; */
+  transition: all 0.3s ease-in-out;
+}
+.l366{
+  left:-366px !important;
+}
+.l0{
+  left:0px !important;
+}
+
+.a_main_top .carousel-item{
+  position: relative;
+}
+.OLay{
+  background-image: linear-gradient(transparent 20%, #EAEDED 70%);
+}
+.a_toplinks{
+  height: 265px;
+  overflow: hidden;
+}
+.a_toplinks > div {
+  background: #f2fafb;
+  height: 50% !important;
+  border:1px solid #fff;
+}
+.tbdr{
+  border:1px dashed #000;
+}
+.overylay{
+  /* background: rgba(0,0,0,0.5); */
+  
+  background:rgba(0,0,0,0.5);
+  position: fixed;
+  z-index: 10010;
+  transition: all linear 0.2s; /* I am giving transition for Animation */
+}
+.a_visible{
+  opacity: 1;
+  visibility: visible;
+}
+.a_invisible{
+  opacity: 0;
+  visibility: hidden;
+}
+.primeBox{
+  width: 340px;
+  height: 342px;
+  top:35px;
+}
+.a_header_bottom li:hover .prime ~ div{ /* I am using siblining selector ~ */
+    display: block !important; 
+}
+.arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #fff;
+}
+.a_aup_prime{
+  top:-10px;
+  left:50px;
+}
+
+header{
+  position: relative;
+  z-index: 100000 !important;
+}
+.a_mainbox1{
+  background-color:#fff;
+  height: 98%;
+  width: 98%;
+}
+.a_mainbox1_inner .col-6{
+  height: 140px;
+}
+.a_mainbox1_inner  > a{
+  text-decoration: none;
+  font-size: 12px !important;
+}
+.a_ht_signin_model_btn:hover > div.a_ht_signin_model{
+  /* Step 2*/
+  opacity:1;
+  visibility: visible;
+} 
+.a_ht_signin_model{
+  width:500px;
+  min-height: 370px;
+  top:50px;
+  right:-180px; 
+  box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.1);
+  opacity: 0;
+  visibility: hidden;
+  /*transition: property duration timing-function delay|initial|inherit;*/
+  /* Step 1 */
+  transition: all 0.1s linear 0.5s;
+}
+.a_ht_signin_model a{
+  font-size: 12px !important;
+  padding: 2px !important;
+  color:#333;
+}
+.a_ht_signin_model a:hover{
+  text-decoration: underline; 
+  color:#f0c350; 
+}
+.a_signin_model{
+  display: block !important;
+}
+
+.mhul li a:hover{
+  background: #eaeded;
+  color:#333;
+}
+.formboder{
+  border:3px solid #ff9900 !important;
+}
+.hform{
+  border-radius: 9px;
+  border:3px solid #131921;
+}
+.hformsbmt{
+  border-radius:7px !important;
+  border-top-left-radius:0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+.hform input{
+  border:none !important;
+}
+.hform input:focus{
+  border:none !important;
+}
+.a_ht_countrydd_btn:hover > div {
+  /* Step 2 */
+  opacity: 1;
+  visibility: visible;
+}
+.a_ht_countrydd{
+  /* Step 1 */
+  width:238px;
+  height: 300px;
+  top:50px;
+  left:0px;
+  box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.1);
+  opacity: 0;
+  visibility: hidden;
+  /* transition: property duration timing-function delay|initial|inherit; */
+  transition:all 0.1s linear 0.2s; 
+}
+.a_au_a_ht_countrydd{
+    top:-11px;
+    left:15px;
+}
+.a_au_a_ht_signin_model{
+  top:-11px;
+  left:303px;
+}
+.mhul li a{
+  padding-left: 30px;
+  color:#333;
+}
+.mhcolor{
+  background: #232f3e;
+}
+.headermodal{
+  /* transition: property duration timing-function delay|initial|inherit; */
+  max-width: 365px !important;
+  top:-30px !important;
+  transition: all 0.3s ease-out !important;
+  border-radius: 0px !important;
+}
+
+.a_header_top{
+  height: 60px;
+  z-index: 1000;
+  background: #131921;
+}
+.a_header_top button{
+  font-size: 12px !important; 
+  padding: 5px 8px !important;
+}
+.a_header_top > button:hover{
+  border:1px solid #fff;
+  border-radius: 2px !important;
+}
+.a_header_bottom{
+  height: 39px;
+  background: #232f3e !important;
+}
+.a_header_bottom a:hover{
+  color:#fff;
+  outline: 1px solid #fff;
+}
+.a_header_bottom a:focus{
+  color:#fff;
+}
+.a_header_bottom a{
+  /*TRBL*/
+  padding: 2px 10px 2px 8px !important;
+  color:#fff;
+
+}
+.a_main{
+  min-height: 4818px;
+  border:1px dashed blue;
+  background: #eaeded; 
+}
+.a_main1{
+  height: 600px;
+  border:1px dashed orange;
+}
+.a_main_top .carousel-control-prev:focus,.a_main_top .carousel-control-next:focus{
+  border:2px solid #008296;
+  outline:2px solid #fff;
+}
+.a_main_top .carousel-control-prev,.a_main_top .carousel-control-next{
+  width: 5% !important;
+  height: 42% !important;
+}
+.a_main_bottom{
+  height: 4564px;
+  border:2px dashed #000;
+  top:253px;
+  left:20px;
+  width: 97%;
+}
+.a_main_bottom_1{
+  
+}
+.a_main_bottom_1 > div{
+  height: 423px;
+  border:1px dashed green;
+}
+.a_main_bottom_2{
+ 
+  border:1px dashed purple;
+}
+.a_main_bottom_2 > div{
+  height: 428px;
+  border:1px dashed violet;
+}
+.a_main_bottom_3{
+  height: 367px;
+}
+.a_main_bottom_4{
+  height: 282px;
+}
+.a_main_bottom_3 > .mb-5 > button:hover{
+  text-decoration: underline !important;
+}
+.imgCont{
+  height: 300px;
+}
+.carouselExampleControls3 .carousel-control-prev,.carouselExampleControls3 .carousel-control-next{
+  opacity: 0 !important;
+}
+.a_main_bottom_4:hover .carousel-control-prev,.a_main_bottom_4:hover .carousel-control-next{
+  opacity: 1 !important;
+}
+.carouselExampleControls2 .carousel-control-prev,.carouselExampleControls2 .carousel-control-next{
+  background: #fff !important;
+  width: 3%;
+  height: 30%;
+  top:111px;
+  display: block !important; 
+  transition: all linear 0.3s;
+  opacity: 1;         
+}
+.carouselExampleControls2 .carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #333;
+}
+
+.carouselExampleControls2  .carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #333;
+}
+.carouselExampleControls2 .carousel-control-prev{
+  /* X   Y   B   S   C  */
+  box-shadow: 2px 0px 3px 3px rgba(0,0,0,0.3);
+}
+.carouselExampleControls2 .carousel-control-next{
+  /* X   Y   B   S   C  */
+  box-shadow: -2px 0px 3px 3px rgba(0,0,0,0.3);
+}
+
+.a_footer_top{
+  height: 452px;
+  background: #232f3e;
+}
+.a_footer_top a{
+  padding: 4px 0px;
+  color:#fff;
+}
+.a_footer_top .container{
+  max-width: 990px;
+}
+.a_footer_top a:hover{
+  text-decoration: underline;
+  color:#fff;
+}
+.a_footer_bottom{
+  height: 227px;
+  background: #131921;
+}
+.a_footer_bottom ul{
+  width: 50%;
+}
+.a_footer_bottom ul li {
+  margin-bottom: 10px;
+}
+.a_footer_bottom a{
+  font-size: 12px;
+  padding: 0px;
+  color:#d0d7c5;
+}
+.a_footer_bottom a:hover{
+  text-decoration: underline;
+  color:#d0d7c5;
+}
+footer{
+  
+}
+.a_foot_eng:hover{
+  background: transparent !important;
+}
+/**************************** Home Css End   *****************************/
+/**************************** Detail Css Start   *****************************/
+.a_dtl_main{
+  width: 98%;
+}
+.a_dtl_top_banner{
+  height: 50px;
+}
+.a_dtl_prodCont{
+  height: 1720px;
+}
+.a_dtl_FreqBroughtTogether{
+  height: 336px;
+}
+.a_dtl_FreqBroughtTogether nav{
+  --bs-breadcrumb-divider: '+' !important;
+}
+.a_dtl_havQ{
+  height: 170px;
+}
+.a_dtl_prodRelItem{
+  height: 370px;
+}
+.a_dtl_custAlsoRev{
+  height: 400px;
+}
+.a_dtl_custQnA{
+  height: 540px;
+
+}
+.a_dtl_custReview_aside{
+  height: 311px;
+}
+.a_dtl_custReview_aside .progress{
+  background: #ffa41c !important;
+}
+.a_dtl_custReview_aside a{
+  text-decoration: none;
+}
+.a_individual_comment{
+  min-height: 300px;
+}
+.reviews_with_img{
+  height: 470px;
+}
+.a_dtl_prodThumbnail{
+  width: 50px;
+}
+.a_dtl_prodMainImg{
+  width: 490px;
+  height: 490px;
+}
+.a_dtl_prodMainImg:hover > div > div:last-child img{
+  z-index: 100000 !important;
+}
+.a_dtl_prodThumbnail a:hover{
+  
+  border:1px solid #e77600 !important;
+  box-shadow: 0px 0px 5px 2px #e77600;
+}
+.t1225{
+  top:1225px;
+}
+.a_buynow{
+  background: #ffa41c !important;
+}
+.dtl_sponsordbox{
+  height: 280px;
+}
+.dtl_sponsordbox_imgcont{
+  height: 250px;
+}
+.list-group{
+  position: relative;
+  z-index: 1 !important;
+}
+.a_dtl_top_consider_ths_itm{
+  height: 200px;
+}
+.a_prodVideoBoxModal{
+  z-index:100000000 !important;
+}
+.a_prodVideoBoxModal > div{
+  margin-top:62px !important; 
+}
+
+.a_prodVideoBoxModal a:hover{
+  color:#333;
+}
+.a_prodVideoBoxModal a{
+  color:#333;
+}
+.a_dtl_prodVideBox a{
+  border:2px solid #d5dbdb !important;
+}
+.a_dtl_prodVideBox a:hover,.a_dtl_prodVideBox a:focus{
+  border:2px solid #e77600 !important;
+}
+.prodVideoBoxModalBody,.prodVideoBoxModalHeader{
+  width:93%;
+}
+.prodVBoxcloseBtn{
+  position:absolute;
+  top:10px;
+  right:10px;
+  font-size: 10px;
+}
+.havQInput:focus{
+  border:none !important;
+}
+/*
+.havQForm:focus{
+  border:1px solid blue !important;
+}
+*/
+/**************************** Detail Css End   *****************************/
+@media (min-width: 1200px){
+  .modal-xl {
+      max-width: 1280px !important;
+  }
+}
+
+/************************** SignIn Start  *******************************/
+.signinformcont a.logo{
+  width: 138px;
+  height: 40px;
+  line-height: 46px;
+  text-align: center;
+}
+.spriteSheet{
+  background: url('https://m.media-amazon.com/images/S/sash/mPGmT0r6IeTyIee.png');
+  background-position: 21px -124px;
+}
+
+.ccName{
+  width: 17px;
+  height: 17px;
+  top:10px; 
+  right: -11px;;
+  background-position: 173px -206px !important;
+}
+/************************** SignIn End  *******************************/
+/************************** Search Start  *******************************/
+.a_srch_main{
+  
+}
+.a_srch_top{
+  height: 38px;
+  box-shadow: 0px 2px 15px 3px rgba(0,0,0,0.1);
+}
+.a_srch_mbox{
+  min-height: 2000px;
+}
+.a_srch_mbox > .col-3{
+  width: 20% !important;
+}
+.a_srch_mbox > .col-9{
+  width: 80% !important;
+}
+.a_srch_FilterTop a{
+  border-radius: 10px !important;
+}
+.a_srch_FilterTop a:hover{
+  border:1px solid #000 !important;
+}
+.a_srch_ProdResult{
+  height: 260px;
+}
+.a_3start{
+  width: 98px;
+  height: 20px;
+  
+}
+.sprtSht{
+  background-image: url('https://m.media-amazon.com/images/S/sash/3-fm1Jbg4IHlyhq.png');
+  background-repeat: no-repeat;
+}
+.a_1star{
+  background-position: -387px -230px;
+  
+}
+.a_1_5star{
+  background-position: 220px 73px;
+}
+.a_2star{
+  background-position: -96px -135px;
+}
+.a_2_5start{
+  background-position: 220px 73px;
+}
+.a_3star{
+  background-position: -290px -183px;
+}
+.a_3_5star{
+  background-position: 220px 73px;
+}
+.a_4star{
+  background-position: 0px -87px !important; 
+}
+.a_4_5star{
+  background-position: -389px -206px
+}
+.a_5star{
+  background-position: -96px -110px;
+}
+
+.avgCustRev ul span.startRat{
+  height:20px;
+  width: 100px;
+}
+.searchAside a:hover{
+  color:orange !important;
+}
+/************************** Search End  *******************************/
+
+/************************** Cart Start  *******************************/
+.cartContainer a{
+  color:#007185 !important;
+}
+
+.emptyCartGuestUserBtn button{
+  box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.1);
+}
+.proccedtoboy{
+
+}
+.accordion-button{
+  
+}
+.more_itm_to_exp{
+  height: 496px;
+}
+/************************** Cart End  *******************************/
+
+/************************** Delivery Start  *******************************/
+
+.delivery > header{
+  height: 85px;
+}
+.delivery > footer{
+  height: 78px;
+}
+.a_del_main{
+}
+.a_del_sel_del{
+}
+.a_del_addr{
+  height: 320px;
+}
+.a_del_addr_gradient{
+  height: 20px;
+  background-image:-webkit-linear-gradient(top,rgba(0,0,0,0.03),#fff);
+}
+
+/************************** Delivery End  *******************************/
+/************************** Order History Start  *******************************/
+.a_odr_his_main{
+  height: 1370px;
+}
+.a_ordhis_breadcrumb{
+  --bs-breadcrumb-divider: '>'
+}
+
+/************************** Order History End  *******************************/
+/************************** Wishlist Start  *******************************/
+.a_wishlist_main{
+  height: 1250px
+}
+.wishl_t1{
+  height: 70px;
+}
+.wishl_t2{
+  height: 60px;
+}
+.wishlist_input{
+  /* Step 1 */
+  padding-right: 0px;
+  /* transition: property duration timing-function delay|initial|inherit; */
+  transition: all .1s linear !important;
+}
+.wishlist_input:focus{
+  /* Step 2 */
+  padding-right: 100px;
+}
+.wisLPro{
+  height: 270px;
+}
+.wisLProBorderblack{
+  border-top:1px solid #000;
+  border-bottom:1px solid #000;
+}
+.a_wishDragImg{
+  cursor: grab !important;
+  width:26px;
+  height: 42px;
+  /* background: bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial|inherit; */
+  background: url("https://m.media-amazon.com/images/G/01/gifts/registries/wishlist/drag_icon._CB485933177_.png") no-repeat !important;
+}
+.a_wish_rat{
+  height: 25px;
+}
+.a_wish_rat > .a_rat{
+  width: 81px;
+}
+.sprtSht2{
+  background-image: url('https://m.media-amazon.com/images/S/sash/McBZv0ZvnbehkIx.png');
+  background-repeat: no-repeat;
+}
+.ss2_4_5star{
+  background-position:-175px -366px  !important;
+}
+.a_chevDown{
+  width: 15px;
+}
+.ss2_chevDown{
+  background-position:-76px -286px !important;
+}
+.a_wish_rat:hover{
+  cursor: pointer;
+}
+.a_wish_rat:hover .a_wish_rat_progressbox{
+  width:337px;
+  opacity:1;
+  visibility: visible;
+}
+.a_wish_rat_progressbox{
+  width:168px;
+  min-height: 278px;
+  top:35px;
+  left:-130px;
+  opacity:0;
+  visibility:hidden;
+  transition: all 0.1s linear;
+}
+.a_wish_rat_progressbox > .arrow-up{
+  top:0px;
+  left:0px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid red;
+}
+/************************** Wishlist End  *******************************/
+
+
